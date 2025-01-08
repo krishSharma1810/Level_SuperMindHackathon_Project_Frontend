@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  background-color: #272264;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100vw; /* Ensure the container doesn't go beyond the screen width */
+  overflow: hidden; /* Prevent horizontal overflow */
+  margin: 0 auto; /* Center the content */
+  width: 100%; /* Allow the container to take full width */
+}
+
+.mainn {
+  display: flex;
+  background-color: #272264;
+  transition: background-color 800ms ease; /* Smooth transition for background color */
+}
+.route{
+  min-width: 100%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  transition: transform 800ms ease; /* Smooth transition for transform */
+}
+
+@media (max-width: 700px) {
+  .mainn {
+    max-width: 100%; /* Allow full width on smaller screens */
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+  transition: color 800ms ease; /* Smooth transition for color */
+}
+
+/* Example: Adding transition to other styles */
+.nav-btn {
+  transition: background-color 800ms ease, transform 800ms ease;
+}
+
+.nav-btn:hover {
+  background-color: #3498db;
+  transform: scale(1.05);
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling caused by content overflow */
+}

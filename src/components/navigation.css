@@ -1,0 +1,60 @@
+.navi1{
+    background-color: #272264;
+    color:white;
+    min-width: 12rem;
+    padding: 0rem 3rem 3rem 3rem;
+    text-align: left;
+}
+.analyti{
+      font-size: 2rem;
+}
+/* Keep existing styles */
+.navi1 {
+    background-color: #272264; /* Retaining your provided background color */
+    color: white;
+    min-width: 12rem;
+    padding: 0rem 3rem 3rem 3rem;
+    text-align: left;
+  }
+  
+  /* Keep existing font size for the title */
+  .analyti {
+    font-size: 2rem;
+    margin-bottom: 2rem; /* Added spacing below the title */
+  }
+  
+  /* Styling for the button container */
+  .nav-buttons {
+    display: flex;
+    flex-direction: column; /* Align buttons vertically */
+    gap: 0.5rem; /* Space between buttons */
+    margin-top: 1rem; /* Space between title and buttons */
+  }
+  
+  /* Styling for individual buttons */
+  .nav-btn {
+    padding: 0.6rem 1.6rem 0.6rem 0.2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent; /* Light blue color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: left; /* Align text to the left */
+    margin-bottom: 2rem;
+  }
+  
+  /* Hover effect for buttons */
+  .nav-btn:hover {
+    background: linear-gradient(90deg, #5449bc, #9281c0);
+    transform: scale(1.05); /* Slightly enlarge */
+  }
+  
+  /* Active button effect */
+  .nav-btn:active {
+    background-color: #1c5986; /* Even darker blue */
+    transform: scale(0.98); /* Slightly shrink */
+  }
+  
