@@ -96,6 +96,3 @@ Contributions are welcome! Please follow these steps:
 
 ## License
 This project is licensed under the MIT License.
-
-## Contact
-For any questions or feedback, please contact [sharmakrish1810work@gmail.com](mailto:sharmakrish1810work@gmail.com).
